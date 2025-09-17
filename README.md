@@ -20,7 +20,7 @@ The core of this project is to compare two distinct deep learning methodologies 
 
 The final model achieved a high level of performance through a series of key optimizations:
 
-* **Final Accuracy:** The transfer learning model achieved an accuracy of over **92%** on the test set, significantly outperforming the from-scratch model.
+* **Final Accuracy:** The transfer learning model achieved an accuracy of over **93%** on the test set, significantly outperforming the from-scratch model.
 * **Correct Preprocessing:** The project highlights the critical importance of using the correct preprocessing function (`resnet50_preprocess_input`) for the pre-trained model, which was essential for achieving high accuracy.
 * **Comprehensive Evaluation:** The model's performance is thoroughly evaluated using a **Confusion Matrix**, **Classification Report**, and **ROC Curves**, providing a detailed view of its strengths and weaknesses across all 10 land-use classes.
 * **Interactive Feature:** The final code includes a feature that allows a user to upload their own satellite image and get a live prediction from the trained model.
